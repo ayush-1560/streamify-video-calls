@@ -138,7 +138,7 @@ const SignUpPage = () => {
         <div className='max-w-md p-8'>
           {/* Illustration */}
           <div className='relative aspect-square max-w-sm mx-auto'>
-            <img src="public\Video call-bro (1).png" alt="Language connection Illustration" className='w-full h-full' />
+            <img src="\Video call-bro (1).png" alt="Language connection Illustration" className='w-full h-full' />
           </div>
           <div className='text-center space-y-3 mt-6'>
             <h2 className='text-xl font-semibold'>Connect with language partners worldwide</h2>
