@@ -17,9 +17,9 @@ app.use(cookieParser());
 const PORT = process.env.PORT;
 const __dirname = path.resolve();
 app.use(express.json());
-app.use("/api/auth",authRoutes);
-app.use("/api/users",userRoutes);
-app.use("/api/chat",chatRoutes);
+app.use("/api/landing/auth",authRoutes);
+app.use("/api/landing/users",userRoutes);
+app.use("/api/landing/chat",chatRoutes);
 
 if(process.env.NODE_ENV==="production"){
     app.use(express.static(path.join(__dirname,"../frontend/dist")));
