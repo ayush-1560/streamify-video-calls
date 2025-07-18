@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+  @apply bg-base-100 text-base-content;
+}
 .str-chat__channel {
     display: flex;
     align-items: center;
